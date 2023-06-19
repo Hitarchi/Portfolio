@@ -98,11 +98,13 @@ p {
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
+  background-color: #e7d7f1;
 }
 
 .section-title {
   position: relative;
   padding-bottom: 22px;
+
 }
 
 #about,
@@ -385,7 +387,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress {
-  background: #ffffff;
+  background: #dbcae6;
   border-radius: 0px;
   box-shadow: none;
   height: 2px;
@@ -419,6 +421,7 @@ a:hover, a:active, a:focus {
 
 #service .service-thumb {
   padding: 52px 22px 52px 22px;
+
 }
 
 #service .service-thumb .fa {
@@ -555,7 +558,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-    padding: 140px 0px;
+    padding: 10px 0px;
+    background-color: #dbcae6;
 }
 
 
@@ -663,6 +667,6 @@ footer {
   }
 
   footer {
-    padding: 40px 0;
+    padding: 10px 0;
   }
 }
