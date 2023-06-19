@@ -12,6 +12,59 @@ html,body {
   height: 100%;
 }
 
+/* Mobile Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, footer {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Tablet and Desktop Styles */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    text-align: center;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
 
 /*---------------------------------------
     Typorgraphy              
